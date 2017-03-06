@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_over">Game Over!\nCorrect word was:\n</string>
+    <string name="game_win">Congratulations!\nCorrect word was:\n</string>
+    <string name="stat_wins">Wins: </string>
+    <string name="stat_losses">Losses: </string>
+    <string name="stat_win_rate">Win rate: </string>
+    <string name="reset_score">Reset score</string>
+    <string name="rules">1: Guess a letter\n\n2: When a letter is pressed, it will be marked as either right or wrong on the keyboard
+        \n\n3: If the guessed letter is right, it will be displayed above the keyboard. If it is wrong, the game will remove one body part from
+    "Monty"\n\n4: If all the correct letters are guessed, the game is won. If "Monty" loses all his body parts, the game is lost</string>
+    <string name="scroll_kb">Scrollable\nKeyboard</string>
+    <string name="static_kb">Static\nKeyboard</string>
+    <string name="rule_header">RULES</string>
+    <string name="settings_header">SETTINGS</string>
+    <string name="new_game">New Game</string>
+    <string name="save_word">swen</string>
+    <string name="save_letter_state">slsen</string>
+</resources>

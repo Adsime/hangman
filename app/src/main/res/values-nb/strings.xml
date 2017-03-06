@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_over">Spillet er slutt!\nRiktig ord var:\n</string>
+    <string name="game_win">Gratulerer!\nRiktig ord var:\n</string>
+    <string name="stat_wins">Seiere: </string>
+    <string name="stat_losses">Tap: </string>
+    <string name="stat_win_rate">Seiersrate:</string>
+    <string name="reset_score">Nullstill Statistikk</string>
+    <string name="rules">1: Gjett en bokstav\n\n2: Når man gjetter en bokstav, vil den bli markert som enten å være riktig eller feil på
+    tastaturet\n\n3: Hvis bokstaven man gjetter er riktig blir det vist over tastaturet. Derimot hvis den er feil vil "Monty" miste
+    en kroppsdel\n\n4: Hvis "Monty mister alle sine krossdeler er spillet tapt</string>
+    <string name="scroll_kb">Scrollbart\nKeyboard</string>
+    <string name="static_kb">Statisk\nKeyboard</string>
+    <string name="rule_header">REGLER</string>
+    <string name="settings_header">INNSTILLINGER</string>
+    <string name="new_game">Nytt Spill</string>
+    <string name="save_word">swnb</string>
+    <string name="save_letter_state">slsnb</string>
+</resources>

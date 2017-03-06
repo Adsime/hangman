@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="wins">wins</string>
+    <string name="losses">losses</string>
+    <string name="selected_keyboard">kboard</string>
+    <string name="used_letter_state">used_letters</string>
+    <string name="current_word">word</string>
+    <string name="tries">tries</string>
+    <string name="word_progress">wordprog</string>
+    <string name="language_change">change</string>
+    <integer name="btn_width">20</integer>
+    <integer name="btn_height">30</integer>
+    <string name="language">language</string>
+    <string name="underline">_</string>
+    <string name="preference">PREFERENCE</string>
+</resources>

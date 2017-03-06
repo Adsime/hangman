@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>OSLO</item>
+        <item>HANDLEKURV</item>
+        <item>KLOKKETÅRN</item>
+        <item>ØDELEGGE</item>
+        <item>INNOVASJON</item>
+        <item>SATELITT</item>
+        <item>GJÆR</item>
+        <item>FLOM</item>
+        <item>TAXI</item>
+        <item>ORANSJE</item>
+        <item>PØLSE</item>
+        <item>PEPPERONI</item>
+        <item>PROGRAMMERING</item>
+        <item>RAKETT</item>
+        <item>ÅLESUND</item>
+        <item>NTNU</item>
+        <item>HIOA</item>
+        <item>HØGSKOLE</item>
+    </string-array>
+</resources>

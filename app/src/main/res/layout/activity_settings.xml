@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bruker.hangman.Settings.Settings">
+
+    <RelativeLayout android:id="@+id/menubar_settings"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <Button
+            android:id="@+id/back_settings"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/back_icon"/>
+
+        <TextView
+            android:id="@+id/rules_header"
+            android:paddingTop="16dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:layout_weight="50"
+        android:id="@+id/rules_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

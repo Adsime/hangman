@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>OSLO</item>
+        <item>SHOPPING CART</item>
+        <item>CLOCK TOWER</item>
+        <item>DESTROY</item>
+        <item>INNOVATION</item>
+        <item>SATELITE</item>
+        <item>YEAST</item>
+        <item>FLOD</item>
+        <item>TAXI</item>
+        <item>ORANGE</item>
+        <item>SAUSAGE</item>
+        <item>PEPPERONI</item>
+        <item>PROGRAMMING</item>
+        <item>ROCKET</item>
+        <item>Aalesund</item>
+        <item>NTNU</item>
+        <item>HIOA</item>
+        <item>HIGH SCHOOL</item>
+    </string-array>
+</resources>

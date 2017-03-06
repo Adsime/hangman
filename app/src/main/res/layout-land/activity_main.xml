@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="0dp"
+    android:paddingLeft="0dp"
+    tools:context=".MainWindow.Main">
+
+    <RelativeLayout android:id="@+id/menubar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:id="@+id/keyboard_button"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:background="@drawable/exit_icon"/>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cog"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/cogwheel"/>
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/stats"/>
+
+            <Button
+                android:id="@+id/flag"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:background="@drawable/flag"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:adjustViewBounds="true"
+        android:id="@+id/progress_image"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:padding="0dp"
+        android:layout_gravity="left"
+        android:foregroundGravity="left"
+        android:layout_margin="0dp"
+        android:alpha="0.75"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/progress_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:padding="0dp"
+            android:id="@+id/correct_word"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+
+            />
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:id="@+id/scrollable_keyboard_container"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:padding="0dp"
+            android:layout_below="@id/correct_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp">
+            <TableRow
+                android:id="@+id/scrollable_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TableRow>
+        </HorizontalScrollView>
+
+        <TableLayout
+            android:layout_centerVertical="true"
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/static_container_one"
+                android:gravity="center"/>
+            <TableRow
+                android:id="@+id/static_container_two"
+                android:gravity="center"/>
+            <TableRow
+                android:id="@+id/static_container_three"
+                android:gravity="center"/>
+        </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
